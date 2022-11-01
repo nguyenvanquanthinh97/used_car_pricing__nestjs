@@ -1,0 +1,7 @@
+### generate migration command:
+
+npm run typeorm migration:generate src/migrations/initial-schema
+
+### run migration
+
+npm run typeorm migration:run

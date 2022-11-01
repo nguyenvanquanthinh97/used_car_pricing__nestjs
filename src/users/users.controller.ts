@@ -63,7 +63,7 @@ export class UsersController {
   @Get('/:id')
   // @Serialize(UserDto)
   async findUser(@Param('id') id: string) {
-    console.log('Handler is running');
+    // console.log('Handler is running');
     const user = await this.usersService.findOne(parseInt(id));
 
     if (!user) {
